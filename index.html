@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header id="header">
+    <figure>
+      <img src="" id="header-img">LOGO
+    </figure>
+    <nav id="nav-bar">
+      <a href="#email" class="nav-link">Register</a>
+      <a href="#video" class="nav-link">Video</a>
+      <a href="#about-us" class="nav-link">About Us</a>    
+    </nav>
+  </header>
+  <section id="hero-img">
+    <h1>CHIANTI WINE</h1>
+    <p>Corte alle Mura</p>
+    <a href="#columns">View Drinks</a>
+  </section>
+
+  <section id="columns">
+    <div class='col-1'>
+      
+        <img src="winebottle.png">
+        <button>VIEW PRICE</button>
+     
+      
+    </div>
+    <div class="col-2">
+      <img src="winebottle.png"><button>VIEW PRICE</button>
+    </div>
+    <div class="col-3">
+      <img src="winebottle.png"><button>VIEW PRICE</button>
+    </div>
+    <div class="col-4">
+      <img src="winebottle.png"><button>VIEW PRICE</button>
+    </div>
+    <div class="col-5">
+      <img src="winebottle.png"><button>VIEW PRICE</button>
+    </div>
+    <div class="col-6">
+      <img src="winebottle.png"><button>VIEW PRICE</button>
+    </div>
+    <div class="col-7">
+      <img src="winebottle.png"><button>VIEW PRICE</button>
+    </div>
+    <div class="col-8">
+      <img src="winebottle.png"><button>VIEW PRICE</button>
+    </div>
+    
+  </section>
+  <span><h2>Enjoy The Sweet Savour Of Our Delicious Wine</h2></span>
+  <video controls id="video" autoplay loop>
+    <source src="wine.mp4" type="video/mp4">
+    Your browser does not support the video tag
+  </video>
+  <!-- <div style="display: block;"></div> -->
+  <section id="about-us">
+    <h2>About Our Company</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste necessitatibus molestiae soluta, nulla sed libero deleniti mollitia placeat ut! Impedit vero recusandae quo veniam sapiente quod eaque totam expedita placeat?</p>
+  </section> 
+  
+</body>
+<footer>
+  <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <label for="name"></label>
+      <input id="name" type="text" placeholder="Enter Name" name="name" required> 
+      <label for="emal"></label>
+      <input type="email" id="email" name="email" placeholder="Enter Email" required><br>
+      <textarea placeholder="Enter other info or suggestions here" rows="4" cols="100"></textarea><br><br>
+      <input type="submit" id="submit">
+      
+   
+  </form>
+  
+</footer>
+</html>
