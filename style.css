@@ -15,7 +15,7 @@ header {
 }
 
 body {
- background-color: black;
+  background: linear-gradient(220deg, #f5f7fa, rgba(184, 198, 219,0.5));
 
 }
 
